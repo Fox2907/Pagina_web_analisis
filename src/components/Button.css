@@ -1,0 +1,52 @@
+.button-buy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 84px;
+  height: 36px;
+  border-radius: 46px;
+  background: #f03153;
+  border: none;
+  color: var(--Black, #1c1c1c);
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.button-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 84px;
+  height: 36px;
+  background: #fdd000;
+  border: none;
+  color: #174287;
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.button-signin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 84px;
+  height: 36px;
+  background: #fdd000;
+  border: none;
+  color: #174287;
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

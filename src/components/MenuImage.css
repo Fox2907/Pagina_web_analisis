@@ -1,0 +1,43 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+.slider-container {
+    width: 100%;
+    height: 691px;
+    margin-top: 90px;
+    overflow: hidden;
+  }
+.slick-slider {
+    width: 80%; 
+    margin: auto;
+    height: 691px;
+  }
+  .slick-slide img {
+    width: 100%;
+    height: 691px;
+    height: auto;
+    object-fit: contain; 
+  }
+  .custom-dot {
+    width: 10px;
+    height: 10px;
+    background-color: #FDD000; 
+    border-radius: 50%;
+    margin: 0 5px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+  }
+  
+  .custom-dot.slick-active {
+    background-color: #FDD000; 
+  }
+  .slick-dots {
+    bottom: 200px;
+  }
+  .slick-dots li {
+    transition: transform 0.3s ease; 
+  }
+ 

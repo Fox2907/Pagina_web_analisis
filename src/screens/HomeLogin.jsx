@@ -1,13 +1,13 @@
 import React from "react";
-import Header from "../components/Header";
+import HeaderLogin from "../components/HeaderLogin";
 import MenuImage from "../components/MenuImage";
 import TopFoods from "../components/TopFoods";
 import Footer from "../components/Footer";
 
-const Home = () => {
+const HomeLogin = () => {
   return (
     <>
-      <Header/>
+      <HeaderLogin />
       <MenuImage />
       <TopFoods />
       <Footer />
@@ -15,4 +15,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default HomeLogin;

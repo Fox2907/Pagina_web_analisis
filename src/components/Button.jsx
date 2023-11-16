@@ -17,7 +17,7 @@ const Button = ({ icon, type, name_button }) => {
         console.log("Sign in");
         break;
       case "button-menuimage":
-        console.log("Sign in");
+        console.log("Comprar");
         break;
     }
   };

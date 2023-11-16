@@ -50,3 +50,12 @@
   font-weight: 400;
   line-height: normal;
 }
+
+.button-menuimage {
+  width: 177px;
+  height: 66px;
+  background-color: transparent;
+  color: white;
+  border-radius: 68px;
+  border: 5px solid var(--Second-Color, #fff);
+}

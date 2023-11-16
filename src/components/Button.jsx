@@ -14,18 +14,19 @@ const Button = ({ icon, type, name_button }) => {
         console.log("Comprar");
         break;
       case "button-signin":
-        console.log("Log In");
+        console.log("Sign in");
+        break;
+      case "button-menuimage":
+        console.log("Sign in");
         break;
     }
   };
   const name_class = `${type} ${isButtonActive ? "active" : ""}`;
   return (
-    <div>
       <button onClick={handleClick} className={name_class}>
-        <img src={icon} alt="" />
+        {icon && <img src={icon} alt="" />} 
         {name_button}
       </button>
-    </div>
   );
 };
 export default Button;

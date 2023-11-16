@@ -1,17 +1,17 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import TopFoods from "./components/TopFoods";
-import MenuImage from "./components/MenuImage";
+import Home from "./screens/Home";
+import Login from "./components/Login";
+
 
 function App() {
   return (
-    <>
-      <Header />
-      <MenuImage/>
-      <TopFoods/>
-      <Footer />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/Login" element={<Login />}/>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
